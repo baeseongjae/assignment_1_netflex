@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+
+  row-gap: 1.5rem;
+
+  > .titleWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h6 {
+    font-size: 21px;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .buttonLike,
+  .buttonUnlike {
+    min-width: 20%;
+    margin-left: auto;
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .buttonLike:hover {
+    cursor: pointer;
+    background-color: #c20000;
+  }
+
+  .buttonUnlike {
+    background-color: blue;
+  }
+
+  .buttonUnlike:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 188);
+  }
+}

@@ -1,0 +1,55 @@
+.header {
+  height: 144px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+
+  .logo {
+    color: red;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    text-decoration: none;
+  }
+
+  > nav > ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 4rem;
+
+    .nickname {
+      padding: 1rem 3rem;
+      border-radius: 20px;
+      background-color: coral;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .buttonLogOut,
+    .link {
+      background-color: red;
+      padding: 15px 30px;
+      font-size: 21px;
+      font-weight: 700;
+      border-radius: 6px;
+      color: white;
+    }
+
+    .buttonLogOut:hover {
+      cursor: pointer;
+      background-color: #c20000;
+    }
+
+    .link {
+      text-decoration: none;
+    }
+
+    .link:hover {
+      background-color: #c20000;
+    }
+  }
+}

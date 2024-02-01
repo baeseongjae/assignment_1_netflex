@@ -1,0 +1,59 @@
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+
+  > section + section {
+    margin-top: 3rem;
+  }
+}
+
+.mainInfo {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.mainInfoRight {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.title {
+  font-size: 42px;
+  margin: 0;
+}
+
+.posterImg {
+  width: 300px;
+}
+
+.genres {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  column-gap: 1rem;
+}
+
+.buttonLike,
+.buttonUnlike {
+  min-width: 20%;
+  margin-left: auto;
+  padding: 10px 20px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+}
+
+.buttonLike:hover {
+  cursor: pointer;
+  background-color: #c20000;
+}
+
+.buttonUnlike {
+  background-color: blue;
+}
+
+.buttonUnlike:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 188);
+}
